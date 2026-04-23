@@ -1,0 +1,1773 @@
+fallout:
+  # minor
+  bleeding:
+    resistance:
+      - blood
+    level: minor
+    source: Core (p13)
+    description: |
+      You’re leaking. Until you get proper medical care, each time
+      you make an action, mark 1 stress against Blood before you
+      roll the dice (but don’t check for fallout).
+  stunned:
+    resistance:
+      - blood
+    level: minor
+    source: Core (p13)
+    description: |
+      You take a blow to the head, or are winded, giving your
+      enemies opportunity to act. If they want to get away from
+      you, they can do so while you stagger about and gather
+      your senses; otherwise, you can’t use the Fight skill to earn
+      additional dice for the remainder of the situation.
+  adrenaline:
+    resistance:
+      - blood
+      - mind
+    level: minor
+    source: Core (p13)
+    description: |
+      Your instincts kick in and you do something stupid. If
+      you’re trying to get away or de-escalate, you lash out at your
+      opponents. If you’re trying to fight, you get panicked and
+      retreat. This is only momentary, and fades after a moment
+      – long enough for a single, immediate action.
+  tired:
+    resistance:
+      - blood
+    level: minor
+    source: Core (p13)
+    description: |
+      You struggle to stay awake, and you overlook something
+      crucial in the current situation. The GM works out what it
+      is, and it comes back to haunt you before the session is over.
+  panicked:
+    resistance:
+      - mind
+    level: minor
+    source: Core (p13)
+    description: |
+      Your heart hammers in your chest. Choose: either leave the
+      scene and calm down, or make things difficult for everyone
+      else around you and increase the difficulty of all actions
+      performed nearby to you by 1.
+  shaken:
+    resistance:
+      - minor
+    level: minor
+    source: Core (p13)
+    description: |
+      You can’t focus on what you’re doing. You may not gain dice
+      from Domains until you take time to calm down.
+  weird:
+    resistance:
+      - mind
+    level: minor
+    source: Core (p13)
+    description: |
+      You do something unsettling that bothers normal people
+      – obsessive behaviour, singing to yourself, fulfilling a
+      strange compulsion at inappropriate times. At the earliest
+      opportunity, the GM can declare that your weirdness puts
+      a useful NPC off you (and probably your allies, too). Once
+      this happens, remove this fallout.
+  lash-out:
+    resistance:
+      - reputation
+    level: minor
+    source: Core (p13)
+    description: |
+      You’re pissed off. You immediately lash out at the source
+      of stress, no matter whether or not this is a sensible idea.
+  lie:
+    resistance:
+      - reputation
+    level: minor
+    source: Core (p13)
+    description: |
+      Trying to justify your actions, you tell a lie that will cause a
+      problem this or next session.
+  compromised:
+    resistance:
+      - shadow
+    level: minor
+    source: Core (p13)
+    description: |
+      A friendly NPC asks you to justify your strange behaviour.
+  rumor:
+    resistance:
+      - shadow
+    level: minor
+    source: Core (p13)
+    description: |
+      Word of your actions gets around the area. The GM and
+      the other players should work out three statements that are
+      whispered about you in bars and taverns: two true, one false.
+  debtor:
+    resistance:
+      - silver
+    level: minor
+    source: Core (p13)
+    description: |
+      During the next session or later in this one, an NPC who
+      lent you money will call in a favour.
+  pawned:
+    resistance:
+      - silver
+    level: minor
+    source: Core (p13)
+    description: |
+      Until the end of the next session, you lose the use of one
+      piece of equipment that’s important to you.
+
+  mistake:
+    resistance:
+      - bond
+    level: minor
+    source: Core (p23)
+    description: |
+      Your bond’s actions raise suspicion. Mark D3 stress in
+      Shadow.
+  depleted:
+    resistance:
+      - bond
+    level: minor
+    source: Core (p23)
+    description: |
+      Your bond uses up their resources, suffers an injury,
+      is upset with you, or is otherwise unable or unwilling
+      to help you out. Next time you ask a favour of them, the
+      difficulty of the task they attempt is increased by 1.
+
+  # moderate
+  broken-arm:
+    resistance:
+      - blood
+    level: moderate
+    source: Core (p14)
+    description: |
+      Your arm breaks under the strain, and splintered bone juts up
+      through your skin. You can’t use the arm until it heals (which
+      will take a month or so, or require powerful healing magic).
+  broken-leg:
+    resistance:
+      - blood
+    level: moderate
+    source: Core (p14)
+    description: |
+      Your leg bones splinter and crack. You can’t walk without
+      crutches for a month or so, and you’ll automatically fail any
+      Pursue attempts. Any action where you’d need to be quick
+      on your feet (fighting, dancing, climbing) is either impossible
+      or suffers from an increased difficulty.
+  knocked-out:
+    resistance:
+      - blood
+    level: moderate
+    source: Core (p14)
+    description: |
+      You fall unconscious for several hours, during which time
+      your enemies get an advantage.
+  freak-out:
+    resistance:
+      - mind
+    level: moderate
+    source: Core (p14)
+    description: |
+      You lose it, and attempt to kill (or at least drive off) whatever
+      caused your mental break. You won’t calm down until you’re
+      restrained, it’s destroyed or flees the scene, or you’re knocked
+      unconscious.
+  memory-holes:
+    resistance:
+      - mind
+    level: moderate
+    source: Core (p14)
+    description: |
+      You did things that you can’t quite recall. The GM and
+      every player aside from you work together to determine
+      what you did that you blocked out from your mind while
+      you step outside of the room, or during downtime. These are
+      generally pretty awful things, and they can have happened
+      up to a year ago in game time or immediately upon suffering
+      fallout. Your character has zero memory of the events, but
+      everyone else involved knows what happened.
+  permanently-weird:
+    resistance:
+      - mind
+    level: moderate
+    source: Core (p14)
+    links:
+      - weird
+    description: |
+      As Weird, but: it lasts until you get proper treatment, and
+      the GM can trigger it whenever they like. You can suppress
+      the effects of this fallout for a scene by marking D3 stress
+      against Mind.
+  phobia:
+    resistance:
+      - mind
+    level: moderate
+    source: Core (p14)
+    description: |
+      You acquire a phobia of something related to the stress
+      you suffered – a person, an item, a place, a situation, or
+      something even more abstract. You will avoid the subject of
+      your phobia whenever possible, and if you have to interact
+      with it, difficulties are increased by 1.
+  humiliated:
+    resistance:
+      - reputation
+    level: moderate
+    source: Core (p14)
+    description: |
+      You make a total fool of yourself. You can’t make use of any
+      allies associated with the actions that pushed you into fallout
+      until you prove yourself once more in their eyes.
+  vendetta:
+    resistance:
+      - reputation
+    level: moderate
+    source: Core (p14)
+    description: |
+      During the next session, or later in this one, an NPC from
+      this session will return with a vendetta against you.
+  arrested:
+    resistance:
+      - shadow
+    level: moderate
+    source: Core (p14)
+    description: |
+      You are caught and arrested by the guard and put in a jail
+      cell, awaiting proper questioning for your crimes.
+  criminal:
+    resistance:
+      - shadow
+    level: moderate
+    source: Core (p14)
+    description: |
+      You are accused of criminal acts, whether true or not, and
+      wanted posters featuring your face and name are put up
+      throughout the district in which you committed the crime.
+      If the crime is particularly exciting, your name and face may
+      make it into the papers.
+  watched:
+    resistance:
+      - shadow
+    level: moderate
+    source: Core (p14)
+    description: |
+      At any point from now until the end of the next session,
+      the GM can decide that someone tailing you watches you
+      perform an action; they can tell you which action if they
+      wish. This will come back to haunt you before long.
+  sold:
+    resistance:
+      - silver
+    level: moderate
+    source: Core (p14)
+    description: |
+      You’re forced to sell off something valuable to pay your
+      debtors. Work out with the GM what you’re forced to sell.
+  services-rendered:
+    resistance:
+      - silver
+    level: moderate
+    source: Core (p14)
+    description: |
+      You’re forced to sell your skills to a third party to pay your
+      debtors, and the work is not pleasant. Work out with the GM
+      what your character doesn’t want to do but is prepared to
+      in order to make ends meet.
+
+  in-trouble:
+    resistance:
+      - bond
+    level: moderate
+    source: Core (p23)
+    description: |
+      Your bond finds themselves in trouble, and can’t be used
+      until the problem is resolved.
+  leak:
+    resistance:
+      - bond
+    level: moderate
+    source: Core (p23)
+    description: |
+      Your bond unwittingly gives out information that threatens
+      the operation. Mark D6 stress in Shadow.
+
+  # severe
+  chosen:
+    resistance:
+      - blood
+    level: severe
+    source: Core (p15)
+    description: |
+      You pass out and awaken in a half-dream state before
+      your god (and if you haven’t devoted your life to a god,
+      someone else’s god) and you can strike a bargain with them
+      in exchange for your life. If you accept their terms, you
+      return to consciousness (changed, always changed) and if
+      you don’t, you slip away into death.
+  dying:
+    resistance:
+      - blood
+    level: severe
+    source: Core (p15)
+    description: |
+      You’re dying. Choose: do something useful before you die
+      (and roll with mastery, because this is the last thing you’ll
+      ever do) or desperately try to cling onto life (and lose
+      something vital in the bargain).
+  obsessed:
+    resistance:
+      - mind
+    level: severe
+    source: Core (p15)
+    links:
+      - permanently-weird
+      - weird
+    description: |
+      Your mind splinters and shards until it is razor-sharp and
+      barbed, focused on a single goal. You are now Permanently
+      Weird (as above), but when you attempt to achieve your goal
+      you roll with mastery, and the difficulty for all other actions
+      increases by 1. Once you achieve your goal, your mind gives
+      under the strain, and you are forcibly retired.
+  renegade:
+    resistance:
+      - mind
+    level: severe
+    source: Core (p15)
+    description: |
+      Your mind shattered by the stress of your actions, you turn
+      against the Ministry and all it stands for (the precise reasons
+      why are up to you and the GM). This is not immediate; the
+      fallout represents the first crack in the dam of your mind.
+      Over the next few sessions, play out your descent. Should
+      you survive, you join a rival faction, or become one unto
+      yourself, set against the cell.
+  reviled:
+    resistance:
+      - reputation
+    level: severe
+    source: Core (p15)
+    description: |
+      You are expelled from somewhere important to you, and you
+      can no longer return on pain of death (or, in more civilised
+      society, arrest). People in the district will spread stories of
+      how utterly reprehensible you are throughout the city.
+  burned:
+    resistance:
+      - shadow
+    level: severe
+    source: Core (p15)
+    description: |
+      The Ministry decides that you are no longer worth the risk
+      of employing, and after feeding you some false information,
+      sells you out to your enemies. Good luck.
+  wrath-of-the-sun-gods:
+    resistance:
+      - shadow
+    level: severe
+    source: Core (p15)
+    description: |
+      Your operations are uncovered by the Solar Guard, the grand
+      inquisitors of the aelfir church, and you are hunted. Many of
+      your NPC bonds are dragged out into the street and shot.
+      Your friends dare not speak your name.
+  destitute:
+    resistance:
+      - silver
+    level: severe
+    source: Core (p15)
+    description: |
+      You are utterly without material resource, and deep in debt
+      to several bad people. You have one last chance to gather up
+      a vast sum of money or resources to pay back your creditors,
+      or you’ll end up dead, mauled beyond recognition by loan
+      sharks, or sold off into some Red Row sweatshop.
+  turned:
+    resistance:
+      - shadow
+      - silver
+    level: severe
+    source: Core (p15)
+    description: |
+      You have sold out your allies in exchange for massive bribes
+      to get you out of debt, or to lessen your own punishment.
+      You are now working for one of your enemies as well as
+      the Ministry, and you may be asked at any time to perform
+      favours or rat out your team-mates. The only way out of this
+      is to come clean (and be killed by the Ministry), completely
+      eliminate the enemy forces who have leverage on you, or
+      take the next skywhale out of Spire and never look back.
+  bankruptcy:
+    resistance:
+      - silver
+    level: severe
+    source: Strata (p46)
+    description: |
+      The Ministry has exhausted the bulk of its funds for you.
+      You need to undertake a mission with the goal of addressing
+      the Ministry's accounting books, which are best described
+      as "freefall". Your Magister will have the details.
+
+  betrayal:
+    resistance:
+      - bond
+    level: severe
+    source: Core (p23)
+    description: |
+      Mark D8 stress in Shadow. Your bond turns against you,
+      although they will not tell you this until it is too late.
+  made-an-example-of:
+    resistance:
+      - bond
+    level: severe
+    source: Core (p23)
+    description: |
+      Your bond’s connection to the resistance is uncovered, and
+      they are made to pay the price. They are dragged into the
+      streets and shot in public after being denounced for their
+      crimes and declared dead.
+
+  # demonic
+
+  backlash:
+    resistance:
+      - demonic
+    level: minor
+    source: Core (p156)
+    description: |
+      The demonic energy, burrowing through your mind, earths
+      itself in someone you know. An ally – if not necessarily a
+      bond – is subject to a terrible fate, and it is your fault. You
+      will probably see it happen. If it is a bond or a fellow player,
+      they immediately suffer Moderate fallout; otherwise, they’re
+      dead, or worse.
+  anathema:
+    resistance:
+      - demonic
+    level: minor
+    source: Core (p156)
+    description: |
+      Animals hate you, and will become enraged in your presence,
+      even if normally docile. There is no way to circumvent this.
+
+  resonance:
+    resistance:
+      - bond
+    exclusive_tags:
+      - demonic
+    level: moderate
+    source: Core (p156)
+    description: |
+      Your body is wracked with demonic energy. You now function
+      as an eidolon for your demon, and at least one other party
+      will be interested in capturing you and locking you away
+      forever; odds are, they will succeed, unless you die first.
+  doom:
+    resistance:
+      - demonic
+    level: moderate
+    source: Core (p156)
+    description: |
+      You wish you were dead, but that’s not how this works.
+      Before the next dawn, you will suffer Moderate fallout in
+      three categories of the GM’s choosing.
+  aetheric-burnout:
+    resistance:
+      - demonic
+    level: moderate
+    source: Core (p156)
+    description: |
+      Your mind rebels against the unnatural forces ripping through
+      it. You can no longer cast demonological spells, but you can
+      teach someone else to do it. Aetheric burnout is the main
+      reason that demonologists survive past their fortieth year.
+
+  incursion:
+    resistance:
+      - demonic
+    level: severe
+    source: Core (p156)
+    description: |
+      You become the conduit for an incursion; a nightmare realm
+      bursts from your body, killing hundreds if not thousands of
+      people, and lasts for anywhere from a minute to an hour.
+      If you are lucky, you will not survive the experience, but
+      even if you do, you will not be able to function as a person
+      ever again.
+  a-smoking-crater-of-a-mind:
+    resistance:
+      - demonic
+    level: severe
+    source: Core (p156)
+    description: |
+      Suffer immediate Moderate Mind fallout. You can no longer
+      cast spells with the [Occult] tag.
+
+  # occult
+
+  fleeting-mark:
+    resistance:
+      - occult
+    level: minor
+    source: Core (p158)
+    description: |
+      Until the next dawn, you bear a tell or mark that identifies
+      the sorcery in your blood – horns, glowing eyes, glyphs
+      wriggling over your skin, moths crawling up your throat,
+      and so on. When you need someone to trust you or treat
+      you kindly while you bear the mark, increase the difficulty
+      of the roll by 1.
+  heart-on-your-sleeve:
+    resistance:
+      - occult
+    level: minor
+    source: Core (p158)
+    description: |
+      Until the end of the next session, any lies you tell cause the
+      truth to appear as a tattoo on your skin or a pattern on your
+      clothing. These will fade over time.
+  unluck-curse:
+    resistance:
+      - occult
+    tags:
+      - hex-maladi
+    level: minor
+    source: Core (p158)
+    description: |
+      Once per session, when you roll at least one 10 on a dice roll,
+      the GM may activate this curse; your highest dice counts as
+      a 1, instead, and some magical tell appears on your body to
+      let you know it was the hex-maladi.
+
+  bone-curse:
+    resistance:
+      - occult
+    tags:
+      - hex-maladi
+    level: moderate
+    source: Core (p158)
+    description: |
+      If you ever mark 3 or more stress to Reputation, you cast
+      this spell upon the person who the GM feels caused you
+      to lose face; their bone-marrow briefly turns to writhing
+      centipedes and stinging ants, causing D8 stress and filling
+      them with excruciating pain.
+  faery-curse:
+    resistance:
+      - occult
+    level: moderate
+    source: Core (p158)
+    description: |
+      If you ever touch unforged iron or cross running water,
+      mark D6 stress. If you touch forged iron or cross still water,
+      mark D3 stress.
+  needle-toothed-child:
+    resistance:
+      - occult
+    tags:
+      - hex-maladi
+    level: moderate
+    source: Core (p158)
+    description: |
+      When you sleep, you cast this spell. A long-limbed, bony,
+      needle-toothed creature unfolds from your mouth and crawls
+      out into the streets to wreak havoc, returning to creep back
+      inside you before you awaken. At first it will only get up to
+      minor mischief (gutting cats, desecrating altars, etc) but it
+      will soon graduate to assault, theft and murder. It has your
+      face. Killing it will not stop the infection; it will crawl out
+      of you again the next time you fall asleep. You can trap the
+      thing, potentially – but it is canny, and can escape from most
+      cages given time, or simply starve itself to death.
+
+      If cornered, the creature has the following profile:
+        Resistance: 4
+        Difficulty: 0
+        Equipment: Needle-teeth and filthy claws (D3, Ongoing D3)
+  spell-magnet:
+    resistance:
+      - occult
+    level: moderate
+    source: Core (p158)
+    description: |
+      Your soul’s resonance rings in time with magic, and it is
+      drawn to you. If a nearby target marks stress from being the
+      subject of a spell, halve the stress between you and them.
+  witches-mark:
+    resistance:
+      - occult
+    links:
+      - fleeting-mark
+    level: moderate
+    source: Core (p158)
+    description: |
+      As Fleeting Mark, but the change is permanent.
+
+  fetch:
+    resistance:
+      - occult
+    level: severe
+    source: Core (p158)
+    description: |
+      A copy of you, bearing some but not all of your memories
+      and mannerisms, is trying to sneak into your life and replace
+      you. It is made of broken springs, animal bones and old
+      clothes glamoured to look like you, and without specialist
+      training and magic, few will be able to tell the difference
+      between you and it. It will stop at nothing to permanently
+      replace you.
+  night-terrors:
+    resistance:
+      - occult
+    level: severe
+    source: Core (p158)
+    description: |
+      A powerful blood-witch has taken notice of your powers,
+      and wishes to recruit you to her coven. If you refuse, or do
+      not work hard enough towards becoming a blood-witch
+      in her thrall, she will crouch on your chest each night and
+      watch you sleep, or try to sleep, and you will not be able to
+      move until the morning.While in this mad, sleep-deprived
+      state, all stress removed as a result of refreshing or other
+      methods is halved.
+
+  # liberty
+
+  light-in-dark-places:
+    resistance:
+      - liberty
+    level: minor
+    source: Magister's Guide (p6)
+    description: |
+      The GM chooses a district or neighbourhood to apply this
+      fallout to. Loud overclocked magelights and smoking
+      gas-lamps now illuminate the district throughout the
+      night, making it hard to conceal your movements. All
+      Sneak and Steal actions in this area have a minimum
+      difficulty of 1.
+  no-congregation:
+    resistance:
+      - liberty
+    level: minor
+    source: Magister's Guide (p6)
+    description: |
+      Drow may now not gather in groups of 5 or more unless
+      they are at church or work.
+  papers-please:
+    resistance:
+      - liberty
+    level: minor
+    source: Magister's Guide (p6)
+    description: |
+      Drow moving between districts in Spire are required to
+      provide documentation at checkpoints and have it stamped
+      – unless they sneak in, which causes its own problems.
+  pound-the-pavement:
+    resistance:
+      - liberty
+    level: minor
+    source: Magister's Guide (p6)
+    description: |
+      City Guard patrols are increased throughout Spire,
+      with vital resources hurriedly reallocated to arm
+      and armour the agents of the Council. Once per session,
+      should they desire, the GM can introduce a City Guard
+      patrol into any situation.
+  upped-sticks:
+    resistance:
+      - liberty
+    level: minor
+    source: Magister's Guide (p6)
+    description: |
+      Rent hikes, brutal policing measures and unemployment
+      spread through the city like wildfire. Choose an
+      individual-level NPC bond connected to one of the player
+      characters – they move away from the area, and are no
+      longer accessible.
+
+  armed-and-armoured:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      Additional funds are devoted to militarising the city’s
+      law enforcement agencies. Any official Council agent
+      (City Guards, Black Guards, Solar Paladins, etc)
+      increase their Armour rating by 1 and carry
+      pistols (D6, Ranged, Reload) unless they were
+      already armed with something more impressive.
+  bad-intel:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      Infiltrating the Ministry, agents for the
+      aelfir disseminate inaccurate or dangerous information
+      throughout the organisation in an attempt to
+      undermine their enemies.The GM should provide
+      increased information on behalf of the Ministry,
+      some of which is useful and some which isn’t; the
+      players will have no way of knowing what’s true or
+      not until they investigate themselves. Failing to
+      follow orders due to suspicion will upset their
+      Magister and the Ministry in general.
+  bounty:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      The reward for actionable information
+      on malcontents is significantly increased.When a
+      player character marks stress to Shadow, they
+      mark 1 additional stress.
+  branding:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      In addition to fines and durances as
+      punishment for crimes, the city now requires that all
+      drow criminals are branded or tattooed on their
+      hands, forearms, neck and face with symbols representing
+      their transgressions. While some Red Row
+      gangsters go to great lengths to fabricate impressive
+      and intimidating brands, to the majority of the inhabitants
+      of the city, this is dehumanising and cruel.
+  closed-thoroughfares:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      After dark, travel between districts is forbidden to drow
+      unless they are in the company of an aelfir.
+      Moving between districts requires an Evade
+      check – or a Deceive check for one of your
+      number to successfully pose as an aelfir citizen.
+  crack-down:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      Gangs of malcontents, rebels and general ne’er-do-wells
+      are rounded up and arrested, beaten into
+      compliance or driven out of the city. Choose
+      a street-level NPC bond connected to one of
+      the player characters – the organisation is
+      broken up, the bond is no longer accessible.
+  curfew:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      Drow may now no longer be out of
+      their homes after sundown unless they are
+      going to or coming from a place of work or
+      performing official business on behalf of an
+      aelfir noble. Documentation is required to
+      prove they are allowed to be outside, and few
+      lords or workplaces will be forthcoming in
+      giving adequate documentation.
+  kick-in-the-door:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      Drow houses, temples and businesses are frequently raided
+      by the guard, ostensibly searching for illicit materials
+      but really just looking to throw their weight around and
+      show the dark elves who’s boss. Every time the player cell
+      makes use of a house, temple or business operated by
+      drow, roll a D6. On a 2, they’ve recently been raided.
+      On a 1, they’re raided when the player characters are present.
+  preventative measures:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      Patrols and raids for contraband are increased. If a
+      character is in a public area and is carrying a long-bladed
+      melee weapon or any type of firearm without adequately
+      concealing it, it is confiscated by armed guards. Knights
+      of the North Docks are permitted to carry long-bladed
+      weapons, but only within the Docks.
+  propaganda-campaign:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      The aelfir begin a concerted effort in newspapers, pulp
+      novels and popular theatre to remove the image of the
+      noble, exciting revolutionary from the minds of the public
+      – and reinforce the concept of Ministers as terrorist
+      murderers who want to destroy the efforts of so many
+      hard-working drow. When a player character marks stress
+      to a Bond, they roll two dice and pick the highest.
+  quality-control:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      Drow require official permits and passes to perform even
+      basic labour tasks; the official pitch is that the city is
+      eager to educate the populace and ensure good quality work,
+      but in reality, it just makes it harder to get work. When a
+      character marks stress to Silver, they mark 1 additional stress.
+  show-of-force:
+    resistance:
+      - liberty
+    level: moderate
+    source: Magister's Guide (p6)
+    description: |
+      Durances to the City Guard are doubled this year, resulting in
+      twice as many police officers trained half as well as usual.
+      Double the number of City Guard in any encounter, but reduce
+      any stress they inflict by 2 (to a minimum of 1).
+
+  all-the-way-to-the-top:
+    resistance:
+      - liberty
+    level: severe
+    source: Magister's Guide (p7)
+    description: |
+      Organisations who are suspected of collaborating with the
+      Ministry are dismantled or destroyed to make an example to
+      others. Choose a city-level NPC bond connected to one of the
+      player characters – they are no longer accessible.
+  plainsclothes-paladins:
+    resistance:
+      - liberty
+    level: severe
+    source: Magister's Guide (p7)
+    description: |
+      The Paladins of Brother Harvest begin to use underhanded
+      tactics to track down their enemies. Anyone could be a
+      Paladin in disguise carrying concealed weaponry and
+      ready to strike down Ministers with specialist
+      training, shock tactics and gory miracles.
+  sanctioned-killers:
+    resistance:
+      - liberty
+    level: severe
+    links:
+      - armed-and-armoured
+    source: Magister's Guide (p7)
+    description: |
+      As ARMED AND ARMOURED but: agents increase their Armour
+      rating by 2, and they carry shotguns (D6, Point-Blank, Ranged).
+      All City Guard are now masked, if they weren’t before.
+  turned-magister:
+    resistance:
+      - liberty
+    level: severe
+    links:
+      - bad-intel
+    source: Magister's Guide (p7)
+    description: |
+      The cell’s Magister has been turned, and now works for the
+      aelfir. As BAD INTEL, but the player characters are actively
+      manoeuvred into an untenable situation, and may be targeted
+      by Ministry Silence Operatives after being burned as rogue agents.
+
+  # azurite
+
+  silver-itch:
+    resistance:
+      - mind
+    class: azurite
+    level: minor
+    source: Magister's Guide (p19)
+    description: |
+      You are possessed by the spirit of Azur; a grating,
+      grinding, golden thrum between your
+      shoulder blades that can only be cured by
+      trade. Until you buy something you don’t
+      strictly need or sell something for a decent
+      price, increase the difficulty of all rolls by 1.
+  cleaned-out:
+    resistance:
+      - silver
+    class: azurite
+    level: minor
+    source: Magister's Guide (p19)
+    description: |
+      Your pockets are empty. You cannot use any additional
+      Silver resistance slots until the start of the
+      next session.
+  priced-to-move:
+    resistance:
+      - mind
+      - silver
+    class: azurite
+    level: moderate
+    source: Magister's Guide (p19)
+    description: |
+      At the end of a string of deals you
+      have ended up with several pallets of some
+      hard-to-sell resource – live lobsters, moody
+      revolvers, abstract art, work it out with the
+      GM – and you’ve got until the end of the
+      next session to sell it on, otherwise you mark
+      D8, Brutal stress to Silver.
+
+  # bound
+
+  fallen:
+    resistance:
+      - blood
+    class: bound
+    level: minor
+    source: Magister's Guide (p21)
+    description: |
+      You tumble from an
+      elevated position. You roll with the impact
+      and land safely enough, but your enemies
+      have an opportunity to act and you’ll have to
+      find another route up if you want to get back
+      to where you were.
+  compelled:
+    resistance:
+      - mind
+    class: bound
+    level: minor
+    source: Magister's Guide (p21)
+    description: |
+      Sensing weakness, the vengeful god in your blade
+      possesses you for a split second. Determine
+      what it wants right now and immediately
+      make an action to attempt to resolve it, then
+      remove this fallout.
+  hard-landing:
+    resistance:
+      - blood
+    class: bound
+    level: moderate
+    links:
+      - fallen
+      - bleeding
+      - stunned
+    source: Magister's Guide (p21)
+    description: |
+      As FALLEN but you also take a suitable
+      Minor Blood fallout (for example,
+      BLEEDING or STUNNED) to represent
+      damage suffered during the landing.
+  taken:
+    resistance:
+      - mind
+    class: bound
+    level: moderate
+    links:
+      - compelled
+    source: Magister's Guide (p21)
+    description: |
+      As COMPELLED but the influence lasts for the remainder
+      of the current situation.
+  cult-of-knives:
+    resistance:
+      - mind
+    class: bound
+    level: severe
+    links:
+      - compelled
+    source: Magister's Guide (p21)
+    description: |
+      As COMPELLED but the effects are
+      permanent; your knife plunges itself into your
+      chest, takes over your body, and disappears
+      into the city to find some like-minded friends.
+      You take no further part in the campaign.
+
+  # blood-witch
+
+  dark-mistress:
+    resistance:
+      - reputation
+      - shadow
+      - occult
+    class: blood-witch
+    level: minor
+    source: Magister's Guide (p23)
+    description: |
+      Tales of your exploits have
+      spread to impressionable young occultists in
+      the city; one of them comes to you bearing a
+      gift and begs to be allowed into your coven.
+      They refuse to stop trying, even if you turn
+      them away, as a means of displaying their
+      devotion to the art.
+  feral-curse:
+    resistance:
+      - blood
+      - mind
+      - occult
+    class: blood-witch
+    level: minor
+    source: Magister's Guide (p23)
+    description: |
+      The Witch virus hates right-angles,
+      mathematics, computation and all things
+      scientific – and it rears up in your R-complex
+      feeling frantic and trapped in your skull.
+      When you are in an area with the Technology
+      tag, increase the difficulty of all actions by 1.
+  witch-sickness:
+    resistance:
+      - blood
+      - reputation
+      - occult
+    class: blood-witch
+    level: moderate
+    source: Magister's Guide (p23)
+    description: |
+      Most people can’t
+      contract the Witch virus that pulses through
+      your veins – turns out someone that you care
+      about (preferably a bond) could, and
+      somehow you managed to infect them. They
+      begin the transformation into a blood-witch
+      and this ruins their life appropriately.
+  meat:
+    resistance:
+      - blood
+      - mind
+    class: blood-witch
+    level: moderate
+    source: Magister's Guide (p23)
+    description: |
+      You are struck with the sickening realisation that
+      everyone in the world is just an ambulatory
+      sack of wet electric meat, barely cognisant of
+      their physical existence, scurrying through
+      life like fleas on a great beast. Increase the
+      difficulty of all social actions by 1.
+  demands:
+    resistance:
+      - blood
+      - mind
+      - occult
+    class: blood-witch
+    level: moderate
+    source: Magister's Guide (p23)
+    description: |
+      The Witch-virus locks the doors
+      and bolts the windows and coils around your
+      heart, refusing to co-operate until you give it
+      the care and attention it deserves. You cannot
+      enter your true form or cast any Blood-
+      Witch spells until you sacrifice a living
+      person in a suitably ritualistic manner then
+      adorn yourself with their still-warm blood.
+
+  # carrion-priest
+
+  hungry:
+    resistance:
+      - blood
+      - mind
+    class: carrion-priest
+    level: minor
+    source: Magister's Guide (p25)
+    description: |
+      You can’t think straight; Charnel’s immense hunger
+      earths in you like lightning and your belly
+      itches with divine want. Until you eat at least
+      a handful of raw meat, the difficulty of all
+      actions not related to eating at least a
+      handful of raw meat is increased by 1.
+  haunted:
+    resistance:
+      - mind
+      - reputation
+    class: carrion-priest
+    level: moderate
+    source: Magister's Guide (p25)
+    description: |
+      After taking someone’s life, you are assailed
+      by their ghost. It will continue to haunt you
+      and make things difficult (Compel+Religion
+      roll to overcome this) until you lay it to rest.
+  holy-brawl:
+    resistance:
+      - reputation
+      - shadow
+    class: carrion-priest
+    level: moderate
+    source: Magister's Guide (p25)
+    description: |
+      Either you upset the guild or
+      someone framed you for something you
+      didn’t do, but now the Morticians are
+      actively coming for you in search of revenge.
+  legally-dead:
+    resistance:
+      - reputation
+      - shadow
+    class: carrion-priest
+    level: severe
+    source: Magister's Guide (p25)
+    description: |
+      After one too many territory
+      disputes with the Morticians, they pull
+      enough strings to have you legally declared
+      dead whilst still alive and are
+      permitted to correct the error at
+      swordpoint. A Mortician Executioner
+      (or three) is dispatched to hunt you
+      down, and they won’t stop until you
+      undo the legal declaration (or die).
+
+  # firebrand
+
+  happy-to-help:
+    resistance:
+      - reputation
+      - shadow
+    class: firebrand
+    level: minor
+    source: Magister's Guide (p27)
+    description: |
+      You draw a young, impressionable rebel
+      in via the gravitational pull of your reckless
+      charisma.You gain them as an individual-level
+      Bond, but they only ever roll 1D10 when
+      making actions on your behalf. If you go a
+      whole session without asking them to do some-
+      thing, they’ll take the initiative and do some-
+      thing themselves – the GM determines what.
+  drow-liberation-front:
+    resistance:
+      - reputation
+      - shadow
+    class: firebrand
+    level: moderate
+    links:
+      - happy-to-help
+    source: Magister's Guide (p27)
+    description: |
+      As HAPPY TO HELP, except that the gang of hopeful
+      ne’er-do-wells functions as a street-level Bond,
+      so they can cause bigger and more extravagant kinds
+      of trouble.
+
+  # gutter-cleric
+
+  petty-hex:
+    resistance:
+      - mind
+    class: gutter-cleric
+    level: minor
+    source: Magister's Guide (p29)
+    description: |
+      You have incurred the wrath of one of the many gods
+      that you have tricked into lending you power.
+      The GM selects a Low advance from those
+      you have chosen; you lose all benefits of that
+      advance until you perform a ritual act
+      seeking forgiveness from the god in question.
+  brought-in-for-questioning:
+    resistance:
+      - mind
+    class: gutter-cleric
+    level: minor
+    source: Magister's Guide (p29)
+    description: |
+      You enter a trancelike state
+      where one of the gods you’ve been siphoning
+      power from (or an angel of same) appears to
+      you in a vision and demands to know exactly
+      what it is you think you’re doing. Until you
+      convince them you’re on the level (or suggest
+      a viable way of making amends) you are
+      trapped in a vulnerable, unresponsive state.
+  dangerous-knowledge:
+    resistance:
+      - mind
+    class: gutter-cleric
+    level: moderate
+    source: Magister's Guide (p29)
+    description: |
+      You get the impression that these
+      Forbidden Faiths might be forbidden for a
+      reason. When you take fallout due a spell you
+      cast, any nearby allies mark D6 stress to
+      Mind from metaphysical feedback.
+  slave-to-god:
+    resistance:
+      - mind
+    class: gutter-cleric
+    level: severe
+    source: Magister's Guide (p29)
+    description: |
+      Your soul has been hollowed out and replaced with
+      the ink-black godstuff of a forbidden deity.
+      You are now a fragment of their consciousness
+      and act in perfect accordance with their will
+      (although your fragile mortal form may be
+      lacking at times), and it is only a matter of
+      time before your body burns out under the
+      strain or the Ethics Board permanently
+      disables you.
+  agent-of-fate:
+    resistance:
+      - mind
+    class: gutter-cleric
+    level: severe
+    source: Magister's Guide (p29)
+    description: |
+      Your eyes are opened to the glory of the Sisters
+      Three and you become a walking doom. You are
+      retired from play, but will appear whenever a
+      player character suffers severe fallout, and
+      you will have been partially responsible for
+      making it happen.
+
+
+  # idol
+
+  following:
+    resistance:
+      - mind
+      - occult
+    class: idol
+    level: minor
+    links:
+      - hunting
+    source: Magister's Guide (p31)
+    description: |
+      Your work, however hard you try to avoid it, always
+      includes an indistinct and threatening hound;
+      in the background of visual art, howling in
+      the chorus of songs, mentioned ominously by
+      characters in a play, and so on. This has no
+      mechanical effect but will probably confuse
+      your critics and raise arguments amongst
+      your fans. Can upgrade to HUNTING.
+  hunting:
+    resistance:
+      - mind
+      - occult
+    class: idol
+    level: moderate
+    links:
+      - following
+      - ravening
+    source: Magister's Guide (p31)
+    description: |
+      Requires FOLLOWING. The hound in your
+      art becomes more prominent and detailed –
+      it is skinless, ravenous, steaming, sharp-
+      edged and obsidian-eyed. No matter your
+      intentions, all your work is now about the
+      hound, and its terrible approach – you could
+      write it off as a metaphor, perhaps. Every
+      session you don’t paint, draw, sing about,
+      write about or otherwise somehow represent
+      the hound in your art, mark D6 stress to
+      Mind. Can upgrade to RAVENING.
+  critical-reception:
+    resistance:
+      - reputation
+    class: idol
+    level: moderate
+    source: Magister's Guide (p31)
+    description: |
+      Your work (or the collateral damage
+      from it) attracts the attention of a squad of
+      Battle-Critics (see above) who will attempt to
+      drag you into art jail in exchange for a small
+      reward and a sizeable amount of prestige.
+  ravening:
+    resistance:
+      - mind
+      - occult
+    class: idol
+    level: severe
+    links:
+      - hunting
+    source: Magister's Guide (p31)
+    description: |
+      Requires HUNTING.Your efforts pay off; you finally
+      create the perfect simulacrum of the hound,
+      and it manifests physically and attempts to
+      eat you. (It’s a difficulty 2, Resistance 11
+      creature with claws and teeth that are D6,
+      Devastating weapons.)
+  life-and-soulless:
+    resistance:
+      - mind
+      - occult
+    class: idol
+    level: severe
+    source: Magister's Guide (p31)
+    description: |
+      Your life changes from only feeling like
+      a constant stream of parties to actually being a
+      constant stream of parties. Every time you walk
+      in somewhere there’s a shindig happening, or
+      there’s one in an adjoining room; you just
+      happen to bump into every festival parade as
+      you walk through the town; you are unable to
+      sleep, or find any time to work, or get on with
+      the serious business of revolution.
+
+  # inksmith
+
+  inkskin:
+    resistance:
+      - mind
+      - occult
+    class: inksmith
+    level: minor
+    source: Magister's Guide (p33)
+    description: |
+      Overloaded with potential stories, your fingertips
+      leak spireblack ink at a rate of about a quarter-
+      pint a day. You become very easy to keep
+      track of unless you undertake a meticulous
+      regime of gloves and sponges; you can
+      remove this fallout by “getting the story out
+      of you” and writing it down for someone else
+      to read.
+  protagonist-curse:
+    resistance:
+      - mind
+      - occult
+    class: inksmith
+    level: moderate
+    source: Magister's Guide (p33)
+    description: |
+      Splicing narrative power into your
+      mortal body was bound to take its toll sooner
+      or later; raw protagonism earths itself in you,
+      and your life becomes unsustainably interesting.
+      Old lovers return with grudges or
+      professing their undying love; wise masters
+      approach you and offer profound wisdom in
+      exchange for completing dangerous quests;
+      goons shadow you and beat the tar out of you
+      for asking the wrong questions, leading you
+      ever deeper into a mystery you were not previously
+      aware of. Every time you try to relax
+      and kick back, something exciting happens to
+      you that lets you demonstrate character or
+      push the plot forward. It’s exhausting.
+  redacted:
+    resistance:
+      - mind
+      - occult
+    class: inksmith
+    level: severe
+    source: Magister's Guide (p33)
+    description: |
+      Accidentally, or perhaps as a last-ditch misguided
+      noble gesture, you write yourself out of the
+      plot .You no longer exist, you never existed,
+      and any character that mentions you by
+      name marks D3 stress to Mind from the dissonance.
+
+  # knight
+
+  hungover:
+    resistance:
+      - blood
+      - reputation
+    class: knight
+    level: minor
+    source: Magister's Guide (p35)
+    description: |
+      Your head feels like some darkling creature
+      of the night used it as a toilet then a mausoleum;
+      your guts roil and churn like thunderous storm
+      clouds; your breath smells like a distillery that
+      needs a shower. Increase the difficulty of all
+      actions involving bright light, loud noises or
+      people being able to smell you by 1 until you get
+      a decent night’s sleep and several pints of water.
+  penitent:
+    resistance:
+      - reputation
+    class: knight
+    level: moderate
+    source: Magister's Guide (p35)
+    description: |
+      You’ve brought shame to your Knightly order.
+      Until you appear before a superior Knight
+      (probably whoever runs the pub you’re
+      sworn to), learn the requirements for your
+      penance and perform them, you can’t use
+      Domains to add dice to your rolls. Your
+      penitent quest will generally focus around
+      doing dirty work for your landlord that they
+      don’t want to do themselves.
+
+  # lajhan
+
+  the-weight-of-your-sins:
+    resistance:
+      - mind
+      - reputation
+    class: lajhan
+    level: minor
+    source: Magister's Guide (p37)
+    description: |
+      Weighed down by dolorous thoughts of your failings,
+      you feel that you have disappointed the Goddess and
+      must make amends. Until you do something selfless
+      for someone needy, increase the difficulty of all
+      social actions by 1.
+  wasting-away:
+    resistance:
+      - silver
+    class: lajhan
+    level: minor
+    source: Magister's Guide (p37)
+    description: |
+      You go without so that others might share in the
+      Goddess’ bounty; you are in dire need of a sit
+      down, a sandwich, and maybe twenty minutes’ sleep.
+      Your hands shake and you feel feeble, increasing
+      the difficulty of all physical actions by 1 until
+      you get some time to rest and recuperate.
+  holy-visions:
+    resistance:
+      - mind
+    class: lajhan
+    level: moderate
+    source: Magister's Guide (p37)
+    description: |
+      The Goddess “blesses” you with a bombardment
+      of visions and hallucinations, making it hard
+      to concentrate or even understand what’s
+      going on at any given point in time. Once per
+      session, another player can refresh D6 when
+      they establish that something you believed is
+      true is in fact a misunderstanding brought
+      on by a hallucination – you mark D3 stress
+      to Mind from the confusion.
+
+  # mask
+
+  mistaken-identity:
+    resistance:
+      - shadow
+    class: mask
+    level: minor
+    source: Magister's Guide (p39)
+    description: |
+      You have been mistaken for a servant by someone
+      nearby and roped into performing an arduous
+      or complicitly evil task – preparing a five-course
+      meal, dressing a Lord in a particular way,
+      disposing of a corpse, etc. While performing the
+      task may allow you to influence proceedings or
+      gain useful information, you’re definitely not
+      prepared to do it smoothly and will have to
+      improvise a solution to maintain your cover.
+  unmasked:
+    resistance:
+      - reputation
+      - shadow
+    class: mask
+    level: minor
+    source: Magister's Guide (p39)
+    description: |
+      For whatever reason, you are unmasked and
+      your true identity is revealed – and what’s
+      worse, someone nearby recognises you.
+
+  # midwife
+
+  spiders:
+    resistance:
+      - blood
+      - mind
+      - occult
+    class: midwife
+    level: minor
+    source: Magister's Guide (p41)
+    description: |
+      Your self-control slips for a crucial second and you
+      let loose a swarm of inquisitive spiders – they
+      might crawl out of your clothing, they may
+      start emerging from cracks in the walls, or you
+      might retch up a wet gutful of them. (Work
+      what’s tonally appropriate with your GM.)
+
+      This is understandably upsetting to everyone
+      nearby, unless they’re other midwives in
+      which case they’ll probably look down on you
+      for making a mess.
+
+  # mortician-executioner
+
+  unexplained-phenomena:
+    resistance:
+      - blood
+      - mind
+    class: mortician-executioner
+    level: minor
+    source: Magister's Guide (p43)
+    description: |
+      Spilled blood and loose necromancy mixes to create chaos.
+      Treat as PHANTOM VIAL (above) focused on you.
+  the-dead-rise:
+    resistance:
+      - mind
+    class: mortician-executioner
+    level: moderate
+    source: Magister's Guide (p43)
+    description: |
+      Animated by misfiring death magic, a nearby
+      corpse springs to frantic life and attempts to
+      do the last thing it desired in life, or if
+      that’s unclear or impossible, it tries to
+      murder you. It functions as a Resistance
+      4 enemy that inflicts D3, Brutal damage.
+
+  # shadow agent
+
+  trouble:
+    resistance:
+      - reputation
+      - shadow
+      - silver
+    class: shadow-agent
+    level: minor
+    source: Strata (p10)
+    description: |
+      You draw attention to your cover through your actions,
+      leading to someone from the cover’s domain poking their
+      nose where it doesn’t belong.
+  stuck:
+    resistance:
+      - reputation
+      - shadow
+      - silver
+    class: shadow-agent
+    level: minor
+    source: Strata (p10)
+    description: |
+      You cannot remove your current
+      cover until the next sunrise.
+  compromised-cover:
+    resistance:
+      - reputation
+      - shadow
+      - silver
+    class: shadow-agent
+    level: minor
+    source: Strata (p10)
+    description: |
+      Your cover is compromised. Until the end of the next session,
+      increase the difficulty of all tasks associated with that
+      identity by 1.
+  blown:
+    resistance:
+      - reputation
+      - shadow
+      - silver
+    class: shadow-agent
+    level: moderate
+    source: Strata (p10)
+    description: |
+      You lose access to this cover identity.
+  mistaken-identity:
+    resistance:
+      - reputation
+      - shadow
+      - silver
+    class: shadow-agent
+    level: moderate
+    source: Strata (p10)
+    description: |
+      An NPC believes they’ve met your cover identity before,
+      and you’re forced to agree with them. Unfortunately, you
+      quickly end up in a difficult situation because of the mistake.
+  ego-death:
+    resistance:
+      - reputation
+      - shadow
+      - silver
+    class: shadow-agent
+    level: severe
+    source: Strata (p10)
+    description: |
+      Swap your base identity for
+      a cover that you possess. The cover is now your
+      base identity (as are any domains attached to it),
+      and your base identity (i.e. all your Shadow Agent
+      advances) becomes a cover that you must access
+      with the Rites of Many Faces to use.
+  unqilling-avatar:
+    resistance:
+      - reputation
+      - shadow
+      - silver
+    class: shadow-agent
+    level: severe
+    source: Strata (p10)
+    description: |
+      An under-used
+      or abused cover rebels against you and acts on its
+      own initiative as an instrument of Lombre, taking
+      control of your body at inopportune moments and
+      trying to gain power over you. You can no longer
+      inhabit this identity. At the beginning of every ses-
+      sion, the GM will tell you what the cover did while
+      you weren’t aware. You can undo this fallout by
+      hunting down and stopping your cover from acting
+      against you, but that’s the sort of thing that’s going
+      to require a great amount of experimental therapy
+      and weaponised ritual. Or, maybe this is the will
+      of Our Hidden Mistress, and you shouldn’t try to
+      stop it at all.
+
+  shadows-fall:
+    resistance:
+      - mind
+    class: shadow-agent
+    level: minor
+    source: Magister's Guide (p45)
+    description: |
+      Magical feedback from your gifts extinguishes every
+      single light in the surrounding area, plunging
+      you and everyone else there into darkness
+      until the end of the current situation.
+  collateral:
+    resistance:
+      - shadow
+    class: shadow-agent
+    level: minor
+    source: Magister's Guide (p45)
+    description: |
+      Someone saw you, and they’ll sell you out to the City
+      Guard if you let them. Make sure they don’t
+      talk – kill them, buy their loyalty or otherwise
+      ensure their silence.
+  the-greater-good:
+    resistance:
+      - shadow
+    class: shadow-agent
+    level: moderate
+    links:
+      - collateral
+    source: Magister's Guide (p45)
+    description: |
+      As COLLATERAL, but it’s someone you know – a Bond,
+      or someone otherwise important.
+  extraction-orders:
+    resistance:
+      - mind
+      - reputation
+      - shadow
+    class: shadow-agent
+    level: moderate
+    source: Magister's Guide (p45)
+    description: |
+      You receive new orders
+      from the Ministry – someone in your current
+      area is an agency plant and needs extraction
+      immediately. (Or: you had orders all along but
+      kept them quiet up until now.) If you don’t,
+      you’ll incur the wrath of your masters.
+  an-old-friend:
+    resistance:
+      - mind
+      - reputation
+      - shadow
+    class: shadow-agent
+    level: moderate
+    source: Magister's Guide (p45)
+    description: |
+      Someone from your old life – before you underwent
+      your identity fracturing at the hands of the Goddess
+      – arrives on the scene, and wants to help you out.
+      You remember bits and pieces of who they were and
+      what they meant to you, but nothing elaborate.
+      Upgrades to AN OLD “FRIEND”.
+  an-old-friend-redux:
+    resistance:
+      - mind
+    class: shadow-agent
+    level: severe
+    links:
+      - an-old-friend
+    source: Magister's Guide (p45)
+    description: |
+      Requires AN OLD FRIEND. Your old ally
+      is revealed to be a Ministry plant, the
+      memories manufactured and implanted, and
+      you’re being manipulated as part of some
+      grander scheme; you can’t trust anything
+      anymore, not least of all yourself. Your mind
+      and reality starts to come apart at the seams,
+      and Ministry Silence cadres or Godhand
+      enforcer squads are being dispatched to
+      bring you quietly into line.
+
+  # vermissian-sage
+
+  no-exit:
+    resistance:
+      - mind
+    class: vermissian-sage
+    level: minor
+    source: Magister's Guide (p47)
+    description: |
+      Try as you might, every door you touch opens into
+      the Vermissian, breaking the rules of time and space
+      and giving everyone nearby a nosebleed. Even if you
+      don’t open a door, passageways you travel down slowly
+      shift into entrances to the Vermissian. It’ll wear
+      off after an hour or so. (You hope.)
+  double:
+    resistance:
+      - mind
+      - shadow
+    class: vermissian-sage
+    level: severe
+    source: Magister's Guide (p47)
+    description: |
+      An identical version of you (played by the GM)
+      appears, and: they are absolutely identical,
+      right down to the smallest detail, right down
+      to the way that they know that they’re the
+      real one. If for whatever reason either you or
+      the double dies, roll a D10; on a 6 or more it
+      was the real one, otherwise it was the
+      Vermissian-made clone. The clone is actively
+      malevolent and will hunt down and kill the
+      party for daring to create it.
+  the-last-train:
+    resistance:
+      - mind
+    class: vermissian-sage
+    level: severe
+    source: Magister's Guide (p47)
+    description: |
+      After casting too many reckless spells and playing
+      fast and loose with the rules of reality, you
+      draw the attention of The Last Train (Spire,
+      p. 131), the only functional locomotive left
+      on the Vermissian network. It immediately
+      crashes through the scene, killing you, and
+      causing horrendous destruction before
+      disappearing back into a nearby tunnel (or
+      making a new one).
