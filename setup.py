@@ -20,7 +20,7 @@ setup(
     },
     include_package_data = True,
     install_requires = [
-        'ruamel.yaml==0.18.16'
+        'ruamel.yaml>=0.18,<0.20'
     ],
     keywords = 'spire city must fall rpg trpg tools rowan rook decard',
     license = 'GPL3',

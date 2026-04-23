@@ -1,7 +1,7 @@
 import os
 import sys
 import importlib
-import pkg_resources
+from importlib.metadata import version
 import json
 import argparse
 from ruamel.yaml import YAML
@@ -27,7 +27,7 @@ class SPIRE():
             return
 
         self.datetime = datetime
-        self.version = pkg_resources.get_distribution('spire-tools').version
+        self.version = version("spire-tools")
 
         if args == None:
             self.args = vars(self.load_arguments())

@@ -6,22 +6,24 @@ Spire: The City Must Fall is created and published by Rowan, Rook & Decard.
 https://rowanrookanddecard.com/product-category/game-systems/resistance/spire/?v=0b3b97fa6688
 
 ## Installation
-First ensure you have Python 3.5+ installed.
-```
-python --version
-Python 3.8.10
-```
-
 Clone the source code.
 ```
 cd ~
 git clone git@github.com:wmgroot/spire-tools.git
 ```
 
+Ensure you have Python 3.5+ installed.
+```
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ python --version
+Python 3.10.12
+```
+
 Install the command line interface locally.
 ```
-$ pip install ruamel.yaml
-$ pip install -e ~/spire-tools
+$ pip install -e .
+$ spire --version
 ```
 
 ## Use

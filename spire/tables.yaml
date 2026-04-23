@@ -53,7 +53,7 @@ fallout:
       performed nearby to you by 1.
   shaken:
     resistance:
-      - minor
+      - mind
     level: minor
     source: Core (p13)
     description: |
@@ -1464,7 +1464,7 @@ fallout:
 
   # mask
 
-  mistaken-identity:
+  mistaken-identity-mask:
     resistance:
       - shadow
     class: mask
