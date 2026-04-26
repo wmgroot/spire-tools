@@ -113,7 +113,7 @@ class SPIRE():
         parser.add_argument('-S', '--seed', default='', help='sets the random generator seed')
 
         # game arguments
-        parser.add_argument('-r', '--resistance', choices=[
+        parser.add_argument('-r', '--resistance', type=str, choices=[
             'blood',
             'mind',
             'silver',
@@ -124,8 +124,24 @@ class SPIRE():
             'demonic',
             'occult',
         ], required=True, help='the name of the resistance to roll for')
-        parser.add_argument('-c', '--class', default='', type=str, help='the name of the class to roll for to allow class specific fallouts')
-        parser.add_argument('-l', '--level', choices=['minor', 'moderate', 'severe'], required=True, help='the severity of the fallout')
+        parser.add_argument('-c', '--class', default='', type=str, choices=[
+            'azurite',
+            'blood-witch',
+            'bound',
+            'carrion-priest',
+            'firebrand',
+            'gutter-cleric',
+            'idol',
+            'inksmith',
+            'knight',
+            'lajhan',
+            'mask',
+            'midwife',
+            'mortician-executioner',
+            'shadow-agent',
+            'vermissian-sage',
+        ], help='the name of the class to roll for to allow class specific fallouts')
+        parser.add_argument('-l', '--level', type=str, choices=['minor', 'moderate', 'severe'], required=True, help='the severity of the fallout')
         parser.add_argument('-o', '--outcomes', default=3, type=int, help='the maximum number of results to print')
 
         return parser.parse_args()
