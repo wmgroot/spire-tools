@@ -348,6 +348,20 @@ fallout:
       Over the next few sessions, play out your descent. Should
       you survive, you join a rival faction, or become one unto
       yourself, set against the cell.
+  intelligence-sleeper:
+    resistance:
+      - mind
+    level: severe
+    source: Core (p83)
+    description: |
+      You reach to the back of your head and feel the hard crystal
+      implant protruding from it. You've been a sleeper agent for
+      The Intelligence all along. As one of the Uplifted, The
+      Intelligence has had access to your senses as long as you can
+      remember, and it has requests that you must obey. Once per
+      situation, the GM may give you an order that benefits The
+      Intelligence, you suffer D6 mental stress if you fail to comply.
+
   reviled:
     resistance:
       - reputation
