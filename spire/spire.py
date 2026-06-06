@@ -188,9 +188,18 @@ class SPIRE():
 
         return random_fallout
 
-    def print_fallout(self, fallout, args, linked=False):
+    def print_fallout(self, fallout, args, linked=False, link_path=None):
+        if link_path == None:
+            link_path = ()
+
         self.logger.log()
         for name, f in fallout.items():
+            if name in link_path:
+                cycle = ' -> '.join(link_path + (name,))
+                # self.logger.log('skipping cyclic fallout link: %s' % cycle, level='warn')
+                continue
+
+            current_link_path = link_path + (name,)
 
             title = self.color(name.replace('-', ' ').title(), self.resistance_color_map.get(args['resistance'], BC.RESET))
             level = self.color(f['level'].title(), self.level_color_map[f['level']])
@@ -216,7 +225,7 @@ class SPIRE():
                 for l in f['links']:
                     linked_fallout = {}
                     linked_fallout[l] = self.config['fallout'][l]
-                    self.print_fallout(linked_fallout, args, linked=True)
+                    self.print_fallout(linked_fallout, args, linked=True, link_path=current_link_path)
 
     def color(self, text, color):
         if color in self.colors:
